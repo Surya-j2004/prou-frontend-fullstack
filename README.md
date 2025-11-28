@@ -1,16 +1,77 @@
-# React + Vite
+SkillNexus - Intelligent Internal Talent Marketplace (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ Overview
 
-Currently, two official plugins are available:
+SkillNexus is a React-based Internal Talent Marketplace designed for "ProU". It allows project managers to post new R&D initiatives and automatically matches them with the most suitable internal employees based on a Weighted Skill Matching Algorithm.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the Frontend UI, built with React and Tailwind CSS, featuring interactive data visualizations to analyze skill gaps.
 
-## React Compiler
+Live Demo Link (Vercel):https://prou-frontend-fullstack.vercel.app/
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+ Tech Stack
 
-## Expanding the ESLint configuration
+Framework: React.js (Vite)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Styling: Tailwind CSS
+
+Visualization: Recharts (Radar Charts for Skill Gap Analysis)
+
+Icons: Lucide React
+
+Deployment: Vercel
+
+ Key Features
+
+Smart Matching Dashboard: Instantly visualizes which employees match a project's requirements.
+
+Skill Gap Analysis: Interactive Radar Chart comparing a project's required skills vs. a candidate's actual skills.
+
+Dynamic Forms: Create new projects with specific skill weightings (React, Python, Data, etc.).
+
+Responsive Design: Fully responsive layout with mobile-compatible sidebar and navigation.
+
+ Screenshots:
+ 
+Main Dashboard showing active projects and candidate matches.
+![](./assets/image1.png)
+![](./assets/image2.png)
+![](./assets/image3.png)
+
+Radar Chart visualizing the skill overlap.
+![](./assets/image4.png)
+![](./assets/image5.png)
+
+ Setup Instructions
+
+Clone the repository:
+
+git clone [https://github.com/Surya-j2004/prou-frontend-fullstack.git](https://github.com/Surya-j2004/prou-frontend-fullstack.git)
+cd prou-frontend-fullstack
+
+
+Install Dependencies:
+
+npm install
+
+
+Run Locally:
+
+npm run dev
+
+
+The app will open at http://localhost:5173.
+
+ Backend Connection
+
+This frontend connects to a separate Python/FastAPI backend.
+
+
+ Bonus Challenges Completed
+
+Full Stack Implementation: Separated Frontend and Backend repositories.
+
+Deployment: Live on Vercel.
+
+Data Visualization: Implemented Radar Charts for complex data representation.
+
+Creative UX: Clean, modern "Enterprise" dashboard design.
