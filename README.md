@@ -33,10 +33,13 @@ Responsive Design: Fully responsive layout with mobile-compatible sidebar and na
  Screenshots:
  
 Main Dashboard showing active projects and candidate matches.
-
+![](./assets/image1.png)
+![](./assets/image2.png)
+![](./assets/image3.png)
 
 Radar Chart visualizing the skill overlap.
-
+![](./assets/image4.png)
+![](./assets/image5.png)
 
  Setup Instructions
 
